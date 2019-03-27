@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~    Copyright 2015 Huawei Technologies Co., Ltd. All rights reserved.
+  ~    eSDK is licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/call_coming_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#88000000"
+    android:orientation="vertical"
+    android:tag="400" >
+
+       <LinearLayout
+            android:id="@+id/incoming_head_blank"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp" >
+        </LinearLayout>
+        
+
+            <LinearLayout
+                android:id="@+id/img_incoming_view"
+                android:layout_width="fill_parent"
+                android:layout_height="211.333dp"
+                android:layout_centerVertical="true"
+                android:layout_above="@+id/incoming_select_btn"
+                android:layout_below="@+id/incoming_head_blank"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="121.333dp" >
+
+                    <ImageView
+                        android:id="@+id/img_incoming"
+                        android:layout_width="121.333dp"
+                        android:layout_height="121.333dp"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <ImageView
+                        android:id="@+id/img_incoming_head"
+                        android:layout_width="81.333dp"
+                        android:layout_height="81.333dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/incoming_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="12dp"
+                    android:maxWidth="500dp"
+                    android:text="sadasddsd"
+                    android:textColor="@color/white"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/incoming_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:maxWidth="500dp"
+                    android:text="asdaadasd"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#f3f3f3" 
+            android:alpha="0.3"
+            />
+
+        <LinearLayout
+            android:id="@+id/incoming_select_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"           
+            android:layout_marginBottom="0dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/callaccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6.666dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/te_phone_receive_btn"
+                android:focusable="false"
+                android:text="@string/audio_answer"
+                android:textColor="#ffffff" 
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/refuse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.666dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/te_mobile_logout_btn"
+                android:focusable="false"
+                android:text="@string/reject"
+                android:textColor="#ffffff" 
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/accept"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:text="#000000"
+                android:visibility="gone" 
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+</RelativeLayout>

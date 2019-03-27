@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wong.tissonvc_2.ui.activity.CreateConfActivity">
+
+    <TextView
+        android:id="@+id/confTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/pacTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confTV"
+        android:text="participant number:"/>
+
+    <EditText
+        android:id="@+id/patNumEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pacTV"
+        android:hint="number"/>
+
+    <Button
+        android:id="@+id/addPatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/patNumEt"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/patNumEt"
+        android:text="add"/>
+
+    <Button
+        android:id="@+id/delPatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/patNumEt"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/addPatBtn"
+        android:text="remove"/>
+
+    <EditText
+        android:id="@+id/confName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/patNumEt"
+        android:layout_marginTop="20dp"
+        android:hint="plz input conf name"
+        />
+
+
+    <EditText
+        android:id="@+id/confPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confName"
+
+        android:digits="1234567890"
+        android:inputType="number"
+
+        android:hint="plz input conf pwd"
+        />
+
+
+    <Button
+        android:id="@+id/createConfBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/confPwd"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/confPwd"
+        android:text="create"/>
+
+    <Button
+        android:id="@+id/addDataConfBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/confPwd"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/createConfBtn"
+        android:text="addData"/>
+
+    <Button
+        android:id="@+id/searchPatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confPwd"
+        android:layout_margin="10dp"
+        android:text="get participants"/>
+
+    <TextView
+        android:id="@+id/patsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchPatBtn"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</RelativeLayout>

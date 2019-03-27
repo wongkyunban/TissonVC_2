@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">TUP VC Demo</string>
+    <string name="ok">OK</string>
+    <string name="proxy_server_address">ProxyServer</string>
+    <string name="register_server_address">RegServer</string>
+    <string name="service_port">Server port</string>
+    <string name="account">Account</string>
+    <string name="iphonepassword">Password</string>
+    <string name="remote_number">Remote number:</string>
+    <string name="vpn_connect">VPN connect</string>
+    <string name="zero_begin_time">00:00:00</string>
+    <string name="callnumber_is_null">Call number is null</string>
+    <string name="sip_number">01051221</string>
+    <string name="bad_request">Bad request</string>
+    <string name="payment_required">Account number over limit</string>
+    <string name="forbidden">Account error</string>
+    <string name="not_found">Not found</string>
+    <string name="method_not_allowed">Method not allowed</string>
+    <string name="not_acceptable">Not acceptable</string>
+    <string name="request_timeout">Request timeout</string>
+    <string name="server_internal_error">Server internal error</string>
+    <string name="not_implemented">Not implemented</string>
+    <string name="bad_gateway">Bad gateway</string>
+    <string name="service_unavailable">Service unavailable</string>
+    <string name="server_time_out">Server timeout</string>
+    <string name="version_not_supported">Version not supported</string>
+    <string name="retry">Retry</string>
+    <string name="cancel_video_update">Video call switch request canceled</string>
+    <string name="callfailed">Call end</string>
+    <string name="cancelled">Call canceled</string>
+    <string name="videoaccept">Answer video</string>
+    <string name="inaccessible">Unreachable number</string>
+    <string name="oppositebusying">The other party is busy</string>
+    <string name="bereject">Call rejected</string>
+    <string name="voipstatusnoreply">The other party does not answer</string>
+    <string name="voipstatusnocnt">Cannot connect now</string>
+    <string name="errorcall">Call failed</string>
+    <string name="camera_bad">Can not get camera</string>
+    <string name="low_bw_update_fail">Low band width,can not turn to video</string>
+    <string name="oper_failure">Operation failed</string>
+    <string name="audio_call">Audio call</string>
+    <string name="video_call">Video call</string>
+    <string name="open_local_preview">Open preview</string>
+    <string name="close_local_preview">Close preview</string>
+    <string name="get_video_devices">Get video devices</string>
+    <string name="get_mic_devices">Get mic devices</string>
+    <string name="get_speak_devices">Get speak devices</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="audio_answer">Audio answer</string>
+    <string name="video_answer">Video answer</string>
+    <string name="reject">Reject</string>
+    <string name="set_camera_angle">Set camera angle</string>
+    <string name="set_local_video_angle">Set local video angle</string>
+    <string name="full_screen">Full screen display</string>
+    <string name="part_screen">Region display</string>
+    <string name="close_local_camera">Close local camera</string>
+    <string name="open_local_camera">Open local camera</string>
+    <string name="switch_local_camera">Switch local camera</string>
+    <string name="hide_video_window">Hide video window</string>
+    <string name="show_video_window">Show video window</string>
+    <string name="switch_audio">Video to audio</string>
+    <string name="msg_tip">Message</string>
+    <string name="logining_msg">Login...</string>
+    <string name="accept">Accept</string>
+    <string name="refuse">Refuse</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="input_number">Input number</string>
+    <string name="divert">Divert</string>
+    <string name="call_divert">Call divert</string>
+    <string name="call_hold_success">Hold call success</string>
+    <string name="call_hold_failed">Hold call failed</string>
+    <string name="call_unhold_success">Resume call success</string>
+    <string name="call_unhold_failed">Resume call failed</string>
+    <string name="blind_transfer_success">Blind transfer success</string>
+    <string name="blind_transfer_failed">Blind transfer failed</string>
+    <string name="proxyServer_not_null">Please enter the proxy server address</string>
+    <string name="regServer_not_null">Please enter the register server address</string>
+    <string name="account_information_not_empty">Please enter your account number or password</string>
+    <string name="input_call_number">Input call number</string>
+    <string name="account_be_kick">The current account is kicked out</string>
+    <string name="call_cannot_launched">New call cannot be launched at present</string>
+    <string name="ntf_upgrade_videocall">Accept request to switch to video call</string>
+    <string name="input_blind_transfer_number">Input blind transfer number</string>
+    <string name="video_upgrade_failure_try_again">Video call switch request failed. please retry later</string>
+
+    <string name="do_not_disturb">DND</string>
+    <string name="call_wait">CALLWAIT</string>
+    <string name="call_forward_uncondition">CFU</string>
+    <string name="call_forward_busy">CFB</string>
+    <string name="call_forward_no_answer">CFNA</string>
+    <string name="call_forward_not_online">CFNR</string>
+    <string name="register">Register</string>
+    <string name="unregister">Unregister</string>
+    <string name="ipt_service_code_null">Ipt service code is null</string>
+    <string name="ipt_config">Ipt config</string>
+    <string name="register_code">Register code</string>
+    <string name="unregister_code">Unregister code</string>
+    <string name="data">Data</string>
+
+    <string name="uportal_login_success">Uportal login success!</string>
+    <string name="uportal_login_fail">Uportal login failed!</string>
+
+    <string name="call_be_issued">The call has been issued</string>
+    <string name="sip">sip</string>
+    <string name="uportal">uportal</string>
+
+    <string name="register_dnd_service_success">Register dnd service success</string>
+    <string name="unregister_dnd_service_success">Unregister dnd service success</string>
+    <string name="register_dnd_service_fail">Register dnd service fail</string>
+    <string name="unregister_dnd_service_fail">Unregister dnd service fail</string>
+
+    <string name="register_cw_service_success">Register cw service success</string>
+    <string name="unregister_cw_service_success">Unregister cw service success</string>
+    <string name="register_cw_service_fail">Register cw service fail</string>
+    <string name="unregister_cw_service_fail">Unregister cw service fail</string>
+
+    <string name="register_cfu_service_success">Register cfu service success</string>
+    <string name="unregister_cfu_service_success">Unregister cfu service success</string>
+    <string name="register_cfu_service_fail">Register cfu service fail</string>
+    <string name="unregister_cfu_service_fail">Unregister cfu service fail</string>
+
+    <string name="register_cfb_service_success">Register cfb service success</string>
+    <string name="unregister_cfb_service_success">Unregister cfb service success</string>
+    <string name="register_cfb_service_fail">Register cfb service fail</string>
+    <string name="unregister_cfb_service_fail">Unregister cfb service fail</string>
+
+    <string name="register_cfna_service_success">Register cfna service success</string>
+    <string name="unregister_cfna_service_success">Unregister cfna service success</string>
+    <string name="register_cfna_service_fail">Register cfna service fail</string>
+    <string name="unregister_cfna_service_fail">Unregister cfna service fail</string>
+
+    <string name="register_cfnr_service_success">Register cfnr service success</string>
+    <string name="unregister_cfnr_service_success">Unregister cfnr service success</string>
+    <string name="register_cfnr_service_fail">Register cfnr service fail</string>
+    <string name="unregister_cfnr_service_fail">Unregister cfnr service fail</string>
+
+    <string name="vc_hosted">Hosted(MediaX)</string>
+    <string name="vc_smc">On-premise(SMC)</string>
+
+
+</resources>
